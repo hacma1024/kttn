@@ -153,9 +153,9 @@ window.onload= PTLayDuLieuThongke();
       <td>
       <select name="list-namhoc" id="list-namhoc">
           <option value="0" selected="selected"> ------  Chọn  ------ </option>         
-          <option value="2016-2017"> 2016 - 2017 </option>
-          <option value="2017-2018" > 2017 - 2018 </option>
-          <option value="2018-2019"> 2018 - 2019 </option>
+          <option value="2023-2024"> 2023 - 2024 </option>
+          <option value="2017-2018" > 2024 - 2025 </option>
+          <option value="2018-2019"> 2025 - 2026 </option>
         </select>
       </td>
     </tr>
