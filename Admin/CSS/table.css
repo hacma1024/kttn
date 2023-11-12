@@ -1,0 +1,40 @@
+/* CSS Document */
+
+/* CSS Document */
+.table
+{
+	border-collapse:collapse;	background-color: #FFF;		
+}
+.maunenle
+{ background-color: #F3F3F3; }
+
+.maunenchon
+{
+	background-color: #0A1BB8; 	color: #FFF;
+}
+
+.table tr
+{ 	border-color: #7A7A7A;}
+
+/*
+.table tr:hover td
+{ 	background-color: #FF0; }
+td:hover { background: #FCF; }
+*/
+.table tr:hover td
+{ 	background-color: #E7FEFD; color: #000; }
+
+.table td
+{
+	padding-top: 3px; padding-bottom: 3px; padding-left: 3px;
+}
+
+.table-them
+{
+	border-collapse:collapse; margin-top: 20px;	
+}
+
+.table-them tr td
+{
+	
+}

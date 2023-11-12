@@ -1,0 +1,447 @@
+/* CSS Document */
+*{ 	margin: 0px; padding: 0px; }
+li{ list-style: none; }
+a{ text-decoration: none; color: inherit;}
+.clear { clear: both;}
+p{font-weight: normal; font-family: Tahoma; font-style: normal; }
+
+select option
+{	padding: 5px 2px;}
+
+select option:hover
+{	background-color: #D1FAFA; }
+
+#wrapper
+{	width: 1100px; 	margin-left: auto; 	margin-right: auto;	 overflow: hidden;}
+
+#gioithieu
+{
+	float: left; width: 100%; height: 50px; font-family: Courier New;
+	font-weight: bold;	font-size: 30px; color: #003500;
+	 
+	display:-webkit-box;	-webkit-box-orient:vertical;
+	-webkit-box-pack:center;	-webkit-box-align:center;
+	 display:box;	box-orient:vertical;
+	box-pack:center;	box-align:center;
+}
+
+#nhapten
+{
+	float: left; width: 100%; height: auto; font-family: Tahoma;
+	font-size: 20px; color: #006;
+	 
+	display:-webkit-box;	-webkit-box-orient:vertical;
+	-webkit-box-pack:center;	-webkit-box-align:center;
+	 display:box;	box-orient:vertical;
+	box-pack:center;	box-align:center;
+}
+
+.textbox
+{
+	font-size: 18px; margin-left: 10px;
+}
+
+.button
+{
+	font-size: 18px; margin-left: 10px;
+}
+
+#banner
+{
+	width:100%; height: 200px;	margin-bottom: 1px;  z-index: 3;
+	background-image:url(../Images/banner.jpg);	
+}
+
+#banner-logo
+{
+	float: left; padding-left: 30px; padding-top: 15px;
+}
+
+
+#banner-logo img
+{
+	 width: 170px; height:170px; margin-top: 10px 20px; 
+}
+
+#banner-ten
+{
+	width: 40%; height: 100%; float: left;
+	font-family: VNI-Bandit; font-weight: bold; font-size: 40px; color: #0C018F;
+	text-shadow: 2px 3px #FFF;
+	display:-webkit-box;	-webkit-box-orient:vertical;
+	-webkit-box-pack:center;	-webkit-box-align:center;
+	 display:box;	box-orient:vertical;
+	box-pack:center;	box-align:center;
+}
+
+#menu
+{
+	width: 100%; height: 40px;	background-color: #D8D8D8; z-index: 200;
+	margin-bottom: 1px;	padding-left: 20px;
+}
+
+#menu ul {	position: relative;}
+
+#menu ul li
+{
+	display: inline-block; 	list-style-type: none;
+	font-family: Tahoma, Geneva, sans-serif;	z-index: 200; 
+	padding-left: 15px; 	padding-right: 15px; 	padding-top: 8px;	  
+}
+
+#menu ul li ul
+{	
+	display: none;    position: absolute;  z-index: 200; 
+}
+
+#menu ul li:hover
+{
+	font-weight: bold;	background-color:#0206A4;
+	color: #FFF; 	padding-bottom: 11px;	
+}
+
+#menu ul li:hover > ul
+{
+	display: block;	background-color: #D8D8D8;
+	left: auto; 	top: 38px; 	color: #000;
+	font-weight: normal;	width: 200px;
+}
+
+#menu ul li ul li
+{	display: block; 	padding: 7px 15px; }
+
+#timkiem-tt
+{
+	width:300px; height:20px; float: right;
+	margin-right: 30px; font-size: 16px; font-family: Times New Roman;
+}
+
+#content
+{	width: 100%; 	height: auto;	margin-bottom: 1px; z-index: 1;}
+
+#footer
+{
+	width: 100%; height: 225px;	background-image:url(../Images/footer.png);	margin-top: 50px; z-index: 0;
+	font-family: "Times New Roman", Times, serif; font-size: 18px; font-style: italic; color:#125C05;
+	padding-left: 30px;
+}
+
+#content-left
+{
+	width: 70%;	float: left; 	height: auto;	
+}
+
+#content-right
+{	width: 29.5%; height: auto;	float: right;	}
+
+#slides
+{
+	width: 100%;	height: auto;	border: 1px solid #595959;	margin-bottom: 10px; 
+}
+
+.box
+{
+	padding: 5px 15px;	 padding-bottom: 20px;	width: auto; height: auto;	
+	border-top: 1px solid #555;	 border-left: 1px solid #555; border-right: 1px solid #555;
+}
+
+.tieudebox
+{
+	background-color: #030; color: #FFF;	margin-top: 3px; margin-bottom: 3px;
+	width: 100%; height: 40px;	border: 1px solid #006;		font-weight: bold;
+	font-family: "Courier New", Courier, monospace; font-size: 18px;
+	/* CAN GIUA THE DIV Safari and Chrome*/		
+	display:-webkit-box;	-webkit-box-orient:vertical;
+	-webkit-box-pack:center;	-webkit-box-align:center;
+	 display:box;	box-orient:vertical;
+	box-pack:center;	box-align:center;
+}
+
+.tinmoi
+{	width: 100%; height: auto;	float: left; position: relative;}
+
+.tinmoi img
+{
+	float: left; margin: 10px 15px 15px 0px;
+	width:365px; height: 270px;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(230,225,230,1);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(230,225,230,1);
+	box-shadow: 8px 8px 4px 0px #EBEBEB;
+	padding: 5px; border: 1px solid #cecece;
+}
+
+.tinmoi-con
+{
+	width: 32.25%; height: 300px;	float: left; text-align: justify;
+	border: 1px solid #828282; 	margin: 2px;
+	vertical-align: middle; 	overflow: hidden;
+	padding-bottom: 15px; padding-top: 10px; position: relative;
+}
+
+.tinmoi-con img
+{
+	width: 200px;	 height: 140px;	margin-left: 15px; 
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(230,225,230,1);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(230,225,230,1);
+	box-shadow: 6px 6px 3px 0px #EBEBEB;
+	padding: 3px; border: 1px solid #cecece;
+}
+
+.con-tieude
+{
+	padding-top: 10px; padding-left: 5px; padding-right: 2px; 	color: #0B045E;
+	font-family: Times New Roman; text-align: justify;
+	font-weight: bold; 	font-size: 18px; 	text-indent: 10px;
+}
+
+.con-tieude:hover
+{ color: #D77009; }
+
+.con-tomtat
+{
+    padding: 5px;	color: #161616; height: 75px; overflow: hidden;
+	font-family: Tahoma;	font-size: 24px; font-style: normal;
+	text-align: justify;	text-indent: 5px;	font-size: 16px; 	
+}
+
+.tinmoi-tieude
+{
+	padding-top: 10px;	color: #0B045E; 	font-family: Times New Roman;
+	font-weight: bold;	font-size: 22px;	text-indent: 20px;
+}
+
+.tinmoi-tieude:hover
+{	color:#D77009; }
+
+.tinmoi-tomtat
+{
+	padding: 5px 10px;	color: #161616;	font-family: Tahoma;	
+	font-size: 18px;	text-align: justify;
+}
+
+.noidungbox
+{
+	width: auto; height: 170px;   padding: 5px;		position: relative; 
+	border-bottom: 1px solid #C8C8C8;	margin-bottom: 5px;
+}
+
+.noidungbox img
+{
+	width: 200px; height: 160px; 	float: left;	margin-right: 20px;	
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(230,225,230,1);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(230,225,230,1);
+	box-shadow: 6px 6px 3px 0px #EBEBEB;
+	padding: 3px; border: 1px solid #cecece;
+}
+
+.box-tindb
+{
+	padding: 5px 7px; margin-bottom: 20px;		
+	width: auto;	height: auto; 	border: 1px solid #003E00;	
+}
+
+.box-tindb ul li
+{
+	font-family: Tahoma; 	color: #004800;	font-size: 16px; 	padding-top:7px;
+	font-weight:normal; text-align: justify;
+}
+
+.box-tindb ul li:hover
+{	color: #00A800; }
+
+.boxtin
+{
+	border-bottom: 1px dotted #737373; z-index:0;
+	height: 170px; padding: 10px 0px; position: relative;
+}
+
+.boxtin img
+{
+	 width: 200px; height: 160px;	 float: left; margin-right: 25px;	 
+	 -webkit-box-shadow: 10px 10px 5px 0px rgba(230,225,230,1);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(230,225,230,1);
+	box-shadow: 6px 6px 3px 0px #EBEBEB;
+	padding: 3px; border: 1px solid #cecece;
+}
+
+.boxtin-tieude
+{
+	padding-top: 5px; padding-left: 5px; 
+	color: #0B045E; 	font-family: Times New Roman;
+	font-weight: bold; 	font-size: 21px;	text-indent: 20px;
+}
+
+.boxtin-tomtat
+{
+	color: #161616; 	font-family: Tahoma; 	font-size: 17px;	
+	text-align: justify; padding: 5px 15px; 
+}
+
+.boxtin-tieude:hover
+{	color:#D77009; }
+
+.chitiet-tieude
+{
+	color:#0303B6;	font-family: Times New Roman;	font-size: 28px;	font-weight: bold;
+	float: left; width: 100%; padding: 15px 10px;
+}
+
+.chitiet-tomtat
+{
+	font-family: Tahoma; text-align: justify;
+	font-size: 22px; color:#5D5D5D; text-indent: 30px; padding: 10px;
+}
+
+.chitiet-video
+{
+	width: 650px; margin-left: 48px; height: 400px; margin-top: 20px; margin-bottom: 20px;
+	float: left; border: 1px solid #7F7F7F;
+}
+
+
+.chitiet-noidung
+{
+	float: left;	font-family: Tahoma; text-align: justify; line-height: 25px;
+	font-size: 18px; color:#080808; text-indent: 30px; padding: 10px; 
+}
+
+.chitiet-tacgia
+{
+	float: left; font-family: Times New Roman; font-size: 18px;
+	font-style: oblique; font-weight: bold; color: #590000;
+	margin: 10px 0px; width:100%; text-align:right;
+}
+
+.chitiet-nguon
+{	float: left; width:100%; text-align:right; 	font-size: 16px; }
+
+.ngaythang
+{
+	font-family: Tahoma; font-size: 16px;	font-style: italic; margin: 10px 0px;
+}
+
+.doctiep
+{
+	font: 14px arial;     color: #5ea201;	right: 10px;
+    margin-top: 10px;	padding-right: 15px;	position: absolute; bottom: 6px;
+}
+
+.doctiep:hover
+{	text-decoration: underline;}
+
+.box-phantrang
+{
+	border: 1px solid #666; width: 20px; height: 30px; background-color: #EAEAEA;
+	color:#000000; 	padding-left: 10px; padding-top: 10px;	 float: left;
+	margin-top: 15px; margin-right: 5px;	
+}
+
+.box-phantrang:hover
+{	background-color:#FFF; 	color:#000075; }
+
+#tuvan
+{
+	padding: 10px;	border: 1px solid #DDD;
+}
+
+.tuvan-nut
+{
+	border: 1px solid #DDD;	background-color: #F5F96C;
+	height: 250px; width: 160px; float: left; margin: 15px 12px;
+}
+
+.icon-video
+{	position: absolute; top: 15px; left: 10px;	}
+
+.icon-video img
+{	width:40px; height: 40px; border: none; box-shadow: none;	}
+
+#tuvan_left, #tuvan_right
+{
+	float: left; width: 41%; height: 420px; margin: 10px 0px;	border: 1px solid #D6D6D6;
+	overflow: hidden;
+}
+
+
+#tuvan_button
+{
+	float: left; width: 12%; height: 400px; margin: 10px; text-align: center;
+	display:-webkit-box;	-webkit-box-orient:vertical;
+	-webkit-box-pack:center;	-webkit-box-align:center;
+	display:box;	box-orient:vertical;
+	box-pack:center;	box-align:center;
+}
+
+#btnphai, #btntrai, #btnrefresh, #btnsuydien
+{
+	width: 90%; margin: 10px 0px; font-family: Tahoma; font-style: italic; font-size: 12px; color: #969696;
+	border: 1px solid #FFF;
+}
+
+#btnphai:hover, #btntrai:hover, #btnrefresh:hover, #btnsuydien:hover
+{
+	border: 1px solid #5D5D5D; background-color: #CAFFFF;
+}
+
+#btnphai img, #btntrai img, #btnrefresh img, #btnsuydien img
+{
+	width: 50px;
+}
+
+#tuvan_ketqua
+{
+	width: 100%; float: left; font-family: Times New Roman;
+	font-size: 20px; color:#00004A; margin-left: 20px; margin-top: 20px;
+}
+#tuvan_ketqua ul li
+{
+	padding: 5px 10px;
+}
+
+#tuvan_ketqua ul li:hover
+{
+	color:#60A9DF;
+}
+
+#timkiem, #dauhieu
+{
+	float: left;	width: 100%; margin-top: 10px; font-style: italic; color: #5F5F5F;
+}
+
+#list_left, #list_right
+{	width: 100%; height: 100%; padding: 10px; border: none;	}
+
+#tinlienquan
+{	width: 100%; float: left;	}
+
+#tinlienquan p
+{
+	color: #002800; font-family: "Times New Roman", Times, serif; font-size: 20px;
+	font-weight: bold;
+}
+
+#tinlienquan ul li
+{	color: #002800; margin: 5px; font-size: 18px; }
+
+#tinlienquan ul li:hover
+{	color: #009700;  }
+
+.lienket-ws 
+{	width: 100%;	height: auto; float: left; border-bottom: 1px dotted #A0A0A0; }
+
+.lienket-ws:hover
+{	font-weight: bold; }
+
+.lienket-ws p
+{
+	font-family: "Times New Roman", Times, serif; font-size: 16px; text-align: center; margin-top: 20px;	
+}
+
+.lienket-ws img
+{	width: 170px; margin-left: 70px; margin-bottom: 20px;	}
+
+.trieuchung
+{
+	font-family: Times New Roman; font-weight: bold; text-align: center; font-size: 12px; color:#00C; padding: 5px 0px;
+	margin: 5px 0px;
+}

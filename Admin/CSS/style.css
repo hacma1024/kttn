@@ -1,0 +1,264 @@
+/* CSS Document */
+@import url("table.css");
+*{	margin: 0px; padding: 0px; font-family: Tahoma, Geneva, sans-serif;}
+
+div.clear { clear: both;}
+select
+{
+	padding:5px; margin-bottom: 10px;  font-size: 16px;
+}
+select option
+{	padding: 5px 2px; font-size: 16px;}
+
+select option:hover
+{	background-color: #D1FAFA; }
+
+#left-baiviet,#right-baiviet
+{
+	float: left; width: auto;
+}
+
+#wrapper
+{
+	width: 2500px;	margin-left: auto;	margin-right: auto;
+}
+
+.button
+{	font-size: 14px; margin-left: 7px; margin-top:20px;  padding: 3px; font-weight: bold;}
+
+.button:hover
+{	color: #0000A6; background-color: #D7F3F7;}
+
+.textbox,.selection
+{	font-size: 16px; }
+
+
+
+a{ text-decoration: none; font-family: Tahoma, Geneva, sans-serif; color: #000;}
+
+#banner
+{
+	background-color: #4646FF;	color: #FFF; font-family: Tahoma; font-size: 18px;
+	height: 50px; width: 100%; font-weight: bold;
+	margin-bottom: 3px;
+	display:-webkit-box;	-webkit-box-orient:vertical;
+	-webkit-box-pack:center;	-webkit-box-align:center;
+	 
+	display:box;	box-orient:vertical;
+	box-pack:center;	box-align:center;
+}
+
+
+
+#menu
+{	
+		
+}
+
+.box-button
+{
+	width: 	100%;
+	height: auto;
+	padding-top: 20px; padding-bottom: 20px;
+	border-bottom: 1px dotted #858585;
+}
+
+.box-button:hover
+{
+	border: 1px solid #000;
+	background-color: #DDD;
+	font-weight:bold;	
+}
+
+.box-button img
+{
+	width: 80px; 	height: 80px;
+	margin-left: 40px;
+}
+
+.box-button p
+{
+	text-align: center; 	padding-top: 5px; font-size: 14px;
+}
+
+#content
+{	
+	width: 91.7%; height: auto;
+	float: left;
+	border: 1px dotted #E4E4E4;
+	
+}
+
+#footer
+{
+	margin-top: 3px;
+	background-color: #006400;	
+	width: 100%; height: 50px; 
+	float: left;
+}
+
+#footer-ad
+{
+
+	margin-top: 50px;	float: left; width: 100%; height:180px; color: #FFF; text-align: center; font-size: 16px; 
+
+	font-family: Times New Roman; padding-top: 30px; font-style: oblique;
+
+	background-image: url(../Images/footerx.png); background-repeat: no-repeat;	
+
+	display:-webkit-box;	-webkit-box-orient:vertical;
+
+	-webkit-box-pack:center;	-webkit-box-align:center;
+
+	 display:box;	box-orient:vertical;
+
+	box-pack:center;	box-align:center;	
+}
+
+#login
+{
+	width: 700px;
+	margin-left: auto; 	margin-right: auto;
+	margin-top: 100px;
+	display:-webkit-box;	-webkit-box-orient:vertical;
+	-webkit-box-pack:center;	-webkit-box-align:center;	
+	display:box;	box-orient:vertical;
+	box-pack:center;	box-align:center;
+}
+
+#right-loaitin
+{
+	float: left;	width: 65%;
+	margin-right: 10px; margin-left: 20px;
+}
+
+#left-loaitin
+{
+	float: left; width: 30%;	margin-left: 10px; 
+}
+#right-cauhoi
+{
+	float: left;  width: auto;
+}
+
+#left-cauhoi
+{
+	float: left;	width: auto;
+	margin: 10px 20px;
+}
+.tieude-bang
+{
+	text-align: center;	font-family: Times New Roman;
+	font-weight: bold; font-size: 18px;	width: auto;	margin: 10px; border: sosolid 1px #0000CC;
+}
+
+.thongbao
+{
+	font-family: Times New Roman; 	color: #800000;
+	font-size:18px; font-style:italic;
+	margin: 10px;
+}
+
+.box-phantrang
+{
+	border: 1px solid #666; width: 16px; height: 22px; background-color: #EAEAEA;
+	color:#000000; 	padding: 5px 2px;	 float: left;
+	margin-top: 15px; margin-right: 5px; font-size: 12px;	
+}
+
+.box-phantrang:hover
+{	background-color:#FFF; 	color:#000075; }
+
+#left-nut
+{
+	float: left; width:50% ;	margin-left: 10px; padding-top: 10px;
+}
+
+#right-nut
+{
+	float: left; width: auto;
+}
+
+.box-left
+{
+	float: left; width:auto; margin-bottom: 20px;
+}
+
+.box-right
+{
+	float: left; width:auto; margin-left: 30px; margin-top: 10px;
+	display:-webkit-box;	-webkit-box-orient:vertical;
+	-webkit-box-pack:center;	-webkit-box-align:center;	
+	display:box;	box-orient:vertical;
+	box-pack:center;	box-align:center;
+}
+
+.ndvetrai, .ndvephai
+{
+	font-family: Times New Roman; font-size: 14px; color: #400000; font-style: italic;
+	margin: 10px 5px; font-weight: bold; text-align: justify;
+}
+
+#timkiem
+{
+	float: left; width: 100%;
+	width: auto; font-style: italic; color: #5F5F5F; margin: 10px 0px;	
+}
+#goiy
+{
+	float: left; width: 100%;
+	font-size: 18px; font-style: italic; font-family: Times New Roman;
+	
+}
+.tieudebox
+{
+	background-color: #00006F; color: #FFF;	margin-top: 3px; margin-bottom: 3px;
+	width: 100%; height: 40px;	font-weight: bold; 
+	font-family: Courier New; font-size: 18px;
+	/* CAN GIUA THE DIV Safari and Chrome*/		
+	display:-webkit-box;	-webkit-box-orient:vertical;
+	-webkit-box-pack:center;	-webkit-box-align:center;
+	 display:box;	box-orient:vertical;
+	box-pack:center;	box-align:center;
+	box-shadow: 5px 5px 5px #DBDBDB;
+}
+.doimatkhau
+{
+	text-align: center; font-size: 18px;  font-family: Tahoma;
+}
+
+#footerx
+{
+	margin-top: 50px;	float: left; width: 100%; height:180px; color: #FFF; text-align: center; font-size: 16px; 
+
+	font-family: Times New Roman; padding-top: 30px; font-style: oblique;
+
+	background-image: url(../Images/footer.png); background-repeat: no-repeat;	
+
+	display:-webkit-box;	-webkit-box-orient:vertical;
+
+	-webkit-box-pack:center;	-webkit-box-align:center;
+
+	 display:box;	box-orient:vertical;
+
+	box-pack:center;	box-align:center;
+}
+
+
+#gioithieu
+{
+	float: left; width: 100%; height: auto; text-align: center;	color: #003500; 	margin-top: 10px;
+
+	display:-webkit-box;	-webkit-box-orient:vertical;
+
+	-webkit-box-pack:center;	-webkit-box-align:center;
+
+	 display:box;	box-orient:vertical;	box-pack:center;	box-align:center; 
+}
+
+
+#tieude
+{	
+	font-family: Times New Roman; font-size: 28px;  font-weight: bold; color:#18A600;	margin-top: 10px;
+	width: 100%;
+}

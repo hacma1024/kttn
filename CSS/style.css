@@ -1,0 +1,596 @@
+/* CSS Document */
+
+*{ 	margin: 0px; padding: 0px; }
+
+li{ list-style: none; }
+
+a{ text-decoration: none; color: inherit;}
+
+.clear { clear: both;}
+
+p{font-weight: normal; font-family: Tahoma; font-style: normal; }
+
+.textbox
+
+{	font-size: 18px; margin-left: 10px; border-radius:4px; height: 30px; }
+
+.button
+
+{	font-size: 18px; margin-left: 10px; padding: 3px;}
+
+.radio
+
+{	font-size: 36px;}
+
+#menu
+{
+	width: 100%; height: 40px;	background-color: #D8D8D8; z-index: 200;
+	margin-bottom: 1px;	padding-left: 20px;
+}
+
+#menu ul {	position: relative;}
+
+#menu ul li
+{
+	display: inline-block; 	list-style-type: none;
+	font-family: Tahoma;	z-index: 200;
+	padding-left: 15px; 	padding-right: 15px; 	padding-top: 8px;	  
+}
+
+#menu ul li ul
+{	
+	display: none;    position: absolute;  z-index: 200; 
+}
+
+#menu ul li:hover
+{
+	font-weight: bold;	background-color:#0206A4;
+	color: #FFF; 	padding-bottom: 11px;	
+}
+
+#menu ul li:hover > ul
+{
+	display: block;	background-color: #D8D8D8;
+	left: auto; 	top: 38px; 	color: #000;
+	font-weight: normal;	width: 200px;
+}
+
+#menu ul li ul li
+{	display: block; 	padding: 7px 15px;  text-align: left;}
+
+#wrapper
+
+{	width: 1200px; 	height:auto; margin-left: auto; 	margin-right: auto;	 overflow: hidden; }
+
+#gioithieu
+
+{
+	float: left; width: 100%; height: auto; text-align: center;	color: #003500; 	margin-top: 10px;
+
+	display:-webkit-box;	-webkit-box-orient:vertical;
+
+	-webkit-box-pack:center;	-webkit-box-align:center;
+
+	 display:box;	box-orient:vertical;	box-pack:center;	box-align:center; 
+}
+
+
+#tieude
+{	
+	font-family: Times New Roman; font-size: 28px;  font-weight: bold; color:#18A600;	margin-top: 10px;
+	width: 100%;
+}
+
+
+
+#goiy
+
+{
+
+	font-size: 18px; font-family: Tahoma; padding-top: 10px; margin-top: -25px; margin-bottom: -10px;
+
+}
+
+
+
+#footer
+
+{
+
+	margin-top: 50px;	float: left; width: 100%; height:180px; color: #FFF; text-align: center; font-size: 16px; 
+
+	font-family: Times New Roman; padding-top: 30px; font-style: oblique;
+
+	background-image: url(../Images/footer.png); background-repeat: no-repeat;	
+
+	display:-webkit-box;	-webkit-box-orient:vertical;
+
+	-webkit-box-pack:center;	-webkit-box-align:center;
+
+	 display:box;	box-orient:vertical;
+
+	box-pack:center;	box-align:center;	
+
+}
+
+
+
+
+
+#btntruoc, #btnsau
+
+{
+
+	border: 1px dotted #DFDFDF;	
+
+	float: left; width: auto; height: auto; margin: 0px 20px; padding: 5px;
+
+	text-align: center; font-style: italic; color: #7D7D7D; font-size:12px;	
+
+}
+
+
+
+#btntruoc:hover, #btnsau:hover
+
+{
+
+	border: 1px solid #6C6C6C;	
+
+	background-color: #EAEAEA; color:#033302;
+
+}
+
+
+
+#btnnapbai
+
+{
+
+	float: right;  margin-left: 20px;  height: 60px;	background-image: url(../Images/button-brow.png);
+
+	background-size:contain;	background-repeat: no-repeat;
+
+	color: #FFF;  background-position:center; background-size:cover; 
+
+	width: 150px; height: 65px; font-family:Verdana; font-style:normal; font-size: 18px;
+
+	display:-webkit-box;	-webkit-box-orient:vertical;
+
+	-webkit-box-pack:center;	-webkit-box-align:center;
+
+	 display:box;	box-orient:vertical;
+
+	box-pack:center;	box-align:center;	
+
+}
+
+
+
+#btnnapbai:hover, #btnxemda:hover
+
+{
+
+	color: #FFFF2B; font-weight: bold;
+
+}
+
+
+
+#btnxemda
+
+{
+
+	float: right;  margin-left: 20px; 
+
+	background-image: url(../Images/button-blue.png);	background-repeat: no-repeat;
+
+	color: #FFF;  background-position:center; background-size:cover; 
+
+	width: 170px; height: 65px; font-family:Verdana; font-style:normal; font-size: 18px;
+
+	display:-webkit-box;	-webkit-box-orient:vertical;
+
+	-webkit-box-pack:center;	-webkit-box-align:center;
+
+	 display:box;	box-orient:vertical;
+
+	box-pack:center;	box-align:center;			
+
+	
+
+}
+
+
+
+#logo
+
+{	float: left; width: 20%; height: auto; margin: 10px 20px;}
+
+
+
+#logo img
+
+{	width: 300px; margin-top: 30px; margin-left: 100px;}
+
+#xacnhanthongtin
+
+{
+	float: left; width: 55%; height: auto; font-family: Tahoma;
+	font-size: 20px; color: #006; margin: 20px 0px;
+	margin-top: 50px; margin-left: 70px; width: 55%;
+	display:-webkit-box;	-webkit-box-orient:vertical;
+	-webkit-box-pack:center;	-webkit-box-align:center;
+	 display:box;	box-orient:vertical;
+	box-pack:center;	box-align:center;
+}
+
+
+
+#clock
+
+{
+
+	border: inset 2px #000000; 	float: right; height:50px; width: 120px;
+
+	-webkit-border-radius: 10px;	-moz-border-radius: 10px;
+
+	border-radius: 10px;		background-color: #F5F5F5; color: #1D02B0;
+
+	z-index: 100px;
+
+	font-family: Courier New; font-size: 30px; font-weight: bold;
+
+	display:-webkit-box;	-webkit-box-orient:vertical;
+
+	-webkit-box-pack:center;	-webkit-box-align:center;
+
+	 display:box;	box-orient:vertical;
+
+	box-pack:center;	box-align:center; text-shadow: none;
+
+}
+
+
+
+
+
+#thongtinhocsinh
+
+{	
+
+	font-family: Tahoma;	font-size: 20px; color: #800000; margin: 20px 0px;	
+
+	width: 89%; text-align: center; margin-left: 10%; 
+
+}
+
+
+
+#bailam
+
+{
+
+	float: left; width: 100%; height: auto; font-family: Tahoma; font-size: 20px; color: #D20000;
+
+	display:-webkit-box;	-webkit-box-orient:vertical;
+
+	-webkit-box-pack:center;	-webkit-box-align:center;
+
+	 display:box;	box-orient:vertical;
+
+	box-pack:center;	box-align:center;		
+
+}
+
+
+
+#napbai
+
+{
+
+	padding: 20px 120px; text-align: right;  width: 80%; 
+
+	font-family: Times New Roman; font-size: 20px; font-style:italic; color: #640000; 	
+
+}
+
+
+
+.dapan
+
+{	color: #282828; margin-left:10px;}
+
+
+
+.cauhoi
+
+{	color: #00009F; font-weight: bold; float: left; width: 90%;}
+
+
+
+#ch-hinhanh
+
+{
+
+	text-align: center; font-family: Times New Roman; font-size: 16px; float: left; width:100%;
+
+	display:-webkit-box;	-webkit-box-orient:vertical;
+
+	-webkit-box-pack:center;	-webkit-box-align:center;
+
+	 display:box;	box-orient:vertical;
+
+	box-pack:center;	box-align:center;		
+
+}
+
+
+
+#ch-hinhanh img
+
+{
+
+	height: 300px; width:600px; margin-bottom: 20px;
+
+	box-shadow: 8px 8px 4px 0px #EBEBEB;
+
+	padding: 3px; border: 1px solid #cecece;
+
+}
+
+
+
+#dapan1, #dapan3
+
+{
+
+	padding: 5px; float: left; width: 47%; float: left; text-align: justify; line-height: 30px; color: #000;
+
+}
+
+
+
+#dapan2, #dapan4
+
+{
+
+	padding: 5px; float: left; width: 47%; float: right; text-align: justify; line-height: 30px; color: #000;
+
+}
+
+
+
+#dapan1:hover, #dapan2:hover, #dapan3:hover, #dapan4:hover
+
+{	
+
+	 color: #2210C5;
+
+}
+
+
+
+#bangcauhoi
+
+{	margin: 0px;  }
+
+
+
+#luottruycap
+
+{	border: 1px solid #00F; float: left; width: 20%; height: 100px;}
+.tenicon
+{
+	text-align:center; margin-top: 10px; font-style:italic; color: #666;
+}
+
+.thanhtimkiem
+{
+	float: left; 
+	display:-webkit-box;	
+	-webkit-box-orient:vertical;	
+	-webkit-box-pack:center;
+	-webkit-box-align:center;	
+	display:box;	
+	box-orient:vertical;	
+	box-pack:center;	
+	box-align:center;
+}
+
+.kiemtra
+{
+	float:left;  margin-left: 50px;
+}
+
+.main-a:hover
+  {
+	  background-color: #FF0;
+	   border-radius: 100px;   	 -moz-border-radius: 100px;    	-webkit-border-radius: 100px;
+    -ms-border-radius: 100px;    -o-border-radius: 100px;
+  }
+.main-a p:hover
+{
+	  font-weight: bold;
+}
+
+.maunenle
+{ background-color: #F3F3F3; }
+
+.tieude-bang
+{
+	float: left; width: 95%; text-align:center; margin-top: 50px; font-family: Times New Roman;	
+	font-weight: bold; font-size: 22px;	width: 95%; 
+}
+.table tr
+{ 	border-color: #7A7A7A;}
+.table
+{
+	border-collapse:collapse;	background-color: #FFF;		
+}
+.table tr:hover td
+{ 	background-color: #E7FEFD; color: #000; }
+
+.table td
+{
+	padding-top: 3px; padding-bottom: 3px; padding-left: 3px; 
+}
+
+.table-them
+{
+	border-collapse:collapse; margin-top: 20px;	
+}
+#login
+{
+	width: 700px;
+	margin-left: auto; 	margin-right: auto;
+	margin-top: 100px;
+	display:-webkit-box;	-webkit-box-orient:vertical;
+	-webkit-box-pack:center;	-webkit-box-align:center;	
+	display:box;	box-orient:vertical;
+	box-pack:center;	box-align:center;
+}
+.button
+{	font-size: 14px; margin-left: 10px; margin-top:20px;  padding: 3px; font-weight: bold;}
+
+.button:hover
+{	color: #0000A6; background-color: #D7F3F7;}
+.nguoidung
+{
+	float: left; 	padding: 5px; 	margin: 20px 30px; 
+	border: 2px solid #4A0;    
+	-moz-border-radius: 10px;    	-webkit-border-radius: 10px;    
+	-ms-border-radius: 10px;    	-o-border-radius: 10px;
+    border-radius: 10px;
+	-webkit-box-shadow: 5px 10px 5px 0 #ABABAB;
+	box-shadow: 5px 10px 5px 0 #ABABAB;
+	
+	/*************/
+	
+	background: rgb(228,245,252); 
+	background: -moz-linear-gradient(-45deg, rgba(228,245,252,1) 0%, rgba(191,232,249,1) 50%, rgba(159,216,239,1) 59%, 		rgba(42,176,237,1) 100%); 
+	background: -webkit-linear-gradient(-45deg, rgba(228,245,252,1) 0%,rgba(191,232,249,1) 50%,rgba(159,216,239,1) 59%,rgba(42,176,237,1) 100%); 
+	background: linear-gradient(135deg, rgba(228,245,252,1) 0%,rgba(191,232,249,1) 50%,rgba(159,216,239,1) 59%,rgba(42,176,237,1) 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', endColorstr='#2ab0ed',GradientType=1 );
+ 
+}
+
+.nguoidung img
+{
+	border: solid 1px #000000; padding: 3px;
+	width: 150px; height: 180px;
+}
+.rdtimkiem-css
+{
+	float: left; margin-left: 30px; font-family: Tahoma; font-size: 20px; margin-top: 40px;
+}
+.lopx
+{
+	border: solid 2px #999999; float:left; width: 46%; height: auto; margin: 10px 6px;
+	padding: 5px 15px;	 padding-bottom: 20px;	width: auto; 
+	border-top: 1px solid #555;	 border-left: 1px solid #555; border-right: 1px solid #555;
+}
+.boxtin
+{
+	border-bottom: 1px dotted #737373; z-index:0; height: 200px; padding: 10px 0px; position: relative;	
+}
+.boxtin img
+{
+	 height: 160px; width: 140px; float: left; margin-right: 25px;	 
+	 -webkit-box-shadow: 10px 10px 5px 0px rgba(230,225,230,1);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(230,225,230,1);
+	box-shadow: 6px 6px 3px 0px #EBEBEB;
+	padding: 3px; border: 1px solid #cecece;
+}
+
+.boxtin-tieude
+{
+	padding-top: 5px; padding-left: 5px; 	color: #0B045E; 	font-family: Times New Roman;	font-weight: bold; 	font-size: 21px;	text-indent: 20px; text-align: left;
+}
+
+.boxtin-tomtat
+{
+	color: #161616; 	font-family: Tahoma; font-size: 17px;	text-align: justify; padding: 5px 15px; 
+}
+
+.boxtin-tieude:hover
+{	color:#D77009; }
+.doctiep
+{
+	 margin-top: 35px; font: 14px arial;     color: #5ea201;	right: 10px;  float:right; text-align: right; 
+    margin-top: 35px;	padding-right: 15px;	position: absolute; bottom: 6px;  
+}
+
+.doctiep:hover
+{	text-decoration: underline;}
+.tieudebox
+{
+	background-color: #00006F; color: #FFF;	margin-top: 3px; margin-bottom: 3px;
+	width: 100%; height: 40px;	font-weight: bold; 
+	font-family: "Courier New", Courier, monospace; font-size: 18px;
+	/* CAN GIUA THE DIV Safari and Chrome*/		
+	display:-webkit-box;	-webkit-box-orient:vertical;
+	-webkit-box-pack:center;	-webkit-box-align:center;
+	 display:box;	box-orient:vertical;
+	box-pack:center;	box-align:center;
+	box-shadow: 5px 5px 5px #DBDBDB;
+}
+.ngaythang
+{
+	font-family: Tahoma; font-size: 16px;	font-style: italic; margin: 10px 0px; width: 95%; 
+	text-align: left; 
+}
+.chitiet-tieude
+{
+	color:#0303B6;	font-family: Times New Roman;	font-size: 28px;	font-weight: bold;
+	float: left; width: 100%; padding: 15px 10px;
+}
+.chitiet-tomtat
+{
+	font-family: Tahoma; text-align: justify;
+	font-size: 22px; color:#5D5D5D; text-indent: 30px; padding: 10px;
+}
+.chitiet-noidung
+{
+	float: left;	font-family: Tahoma; text-align: justify; line-height: 25px;
+	font-size: 18px; color:#080808; text-indent: 30px; padding: 10px; 
+}
+.chitiet-tacgia
+{
+	float: left; font-family: Times New Roman; font-size: 18px;
+	font-style: oblique; font-weight: bold; color: #590000;
+	margin: 10px 0px; width:100%; text-align:right;
+}
+
+.box
+{
+	padding: 5px 15px;	 padding-bottom: 20px;	width: auto; height: auto;	
+	border: 1px solid #555;	
+}
+#hoctap
+{
+	height: auto; text-align: center; font-size: 30px; margin-top: 150px; margin-left: auto; 
+	float: left; width: 70%;	
+}
+#hoctap-right
+{
+	float: right; height: 1000px; border: solid 1px #000066; width: 23%; margin-right: 5px; font-size: 18px; 	
+	font-family: Verdana; text-align: left; padding: 5px; text-align: justify; line-height: 30px; color: #135A01;
+}
+#hoctap-right a:hover
+{
+	color: #32DF00;
+}
+.box-phantrang
+{
+	border: 1px solid #666; width: 20px; height: 30px; background-color: #EAEAEA;
+	color:#000000; 	padding-left: 10px; padding-top: 10px;	 float: left;
+	margin-top: 15px; margin-right: 5px;	font-size: 20px;
+}
+.box-phantrang:hover
+{	background-color:#FFF; 	color:#000075; }
+
+.textgopy
+{
+	padding: 3px; font-size: 18px;
+}
