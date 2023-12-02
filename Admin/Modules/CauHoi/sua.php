@@ -116,23 +116,6 @@
       </td>
     </tr>
     <tr>
-      <td height="38">Ảnh minh họa:</td>
-      <td>             
-      <?php 
-          if ($dong["hinhanh"]!="")
-          {
-      ?>
-          <img id="anhminhhoa" src="../<?php echo $dong['hinhanh']?>"  name="anhminhhoa" style="width: 120px; height:100px; margin-top: 10px;" /> 
-      <?php  }
-          else
-          {	
-      ?>      <img id="anhminhhoa" src="Images/no-image.jpg" name="anhminhhoa" style="width: 120px; height:100px; margin-top: 10px;" />    <?php  }?>  
-       <input type="file" id="hinhanh" name="hinhanh" size="48px" onchange="PTTimAnh(this)" style="display:none;" />
-      <input class="button" type="button" id="btnchonanh" onclick="document.getElementById('hinhanh').click()"
-       value="Chọn ảnh" />     
-      </td>
-    </tr>
-    <tr>
       <td height="32">Đáp án 1:</td>
       <td>
       <input type="text" name="txtdapan1" id="txtdapan1" size="72px" value="<?php echo $dong['dapan1']?>"/>

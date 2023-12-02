@@ -61,7 +61,6 @@
     <tr>
       <td width="41" height="36"><div align="center"><strong>STT</strong></div></td>
       <td width="471"><div align="center"><strong>CÂU HỎI</strong></div></td>
-      <td width="136"><div align="center"><strong>ẢNH</strong></div></td>
       <td width="131"><div align="center"><strong>MÃ ĐỀ THI</strong></div></td>
       <td width="87"><div align="center"><strong>DẠNG</strong></div></td>
       <td width="61"><div align="center"><strong>SD</strong></div></td>
@@ -81,18 +80,6 @@
                   ><!--DONG TR-->
                     <td style=" text-align:center;"><?php echo $so?></td>
                     <td><?php echo $dong['cauhoi'] ?></td>
-                    <td style=" text-align:center;">
-                    <?php if ($dong["hinhanh"]!="")
-						{
-					?>
-                    	<img src="../<?php echo $dong["hinhanh"]?>" style="width: 80px;" /> 
-                    <?php  }
-						else
-						{						
-					?>      
-                    	<img src="Images/no-image.jpg" style="width: 80px;" />  
-                    <?php  }?>           
-                    </td>
                     <td style=" text-align:center;"><?php echo $dong['madethi']?> </td>
                     <td style=" text-align:center;"><?php echo PTHienThiDang($dong['dangch'])?></td>
                     <td style=" text-align:center;"><?php echo PTHienThiTT($dong['trangthai'])?></td>

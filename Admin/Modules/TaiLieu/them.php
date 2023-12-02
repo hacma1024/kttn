@@ -43,16 +43,6 @@
         </td>
       </tr>
       <tr>
-        <td height="171">Ảnh:</td>
-        <td>
-          <img id="anhtailieu" src="Images/no-image.jpg" height="150" width="180" />
-          <input type="file" id="fileanh" name="anhminhhoa" size="48px" onchange="PTTimAnh(this)"
-            style="display:none;" />
-          <input class="button" type="button" id="btnchonanh" onclick="document.getElementById('fileanh').click()"
-            value="Chọn ảnh" />
-        </td>
-      </tr>
-      <tr>
         <td height="144">Tóm tắt:</td>
         <td><textarea name="txttomtat" id="xttomtat" cols="46"
             rows="8">Chúc các bạn ôn tập tốt và kiểm tra đạt điểm cao!</textarea></td>

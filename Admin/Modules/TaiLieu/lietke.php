@@ -70,7 +70,6 @@ function PTHienThiHinhAnh($anh)
     <tr>
       <td width="47" height="59" style="text-align:center; font-weight:bold;">STT</td>
       <td width="332" style="text-align:center; font-weight:bold;">TÊN SÁCH</td>
-      <td width="132" style="text-align:center; font-weight:bold;">ẢNH</td>
       <td width="101" style="text-align:center; font-weight:bold;">MÔN</td>
       <td width="81" style="text-align:center; font-weight:bold;">LỚP</td>
       <td width="205" style="text-align:center; font-weight:bold;">NGƯỜI ĐĂNG</td>

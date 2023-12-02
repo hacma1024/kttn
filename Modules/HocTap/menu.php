@@ -75,6 +75,7 @@
                    <a href="index.php?xem=loaitin&id=1&lop=10"> <li> Toán </li></a>
                    <a href="index.php?xem=loaitin&id=2&lop=10"> <li> Ngữ văn </li></a>
                    <a href="index.php?xem=loaitin&id=3&lop=10"> <li> Anh văn </li></a>
+				   <a href=index.php?xem=loaitin&id=3&lop=10"> <li> Tin Học </li></a>
                    
                 </ul>
             </li>

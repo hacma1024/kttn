@@ -160,12 +160,12 @@
 		dadung= $('#list-dadung').val();
 		dethi= $('#list-dethi').val();
 		//mucdo= $('#list-mucdo').val();
-		tenanh=$('#hinhanh').val().substr(12);//C:fakepathmultiple-choice.jpg		
+		// tenanh=$('#hinhanh').val().substr(12);//C:fakepathmultiple-choice.jpg		
 		
-		if ($('#chkxao').attr('checked')==false)
-			xao= 0;
-		// DATA 2 la load lop
-		var fd= new FormData($('#hinhanh'));
+		// if ($('#chkxao').attr('checked')==false)
+		// 	xao= 0;
+		// // DATA 2 la load lop
+		// var fd= new FormData($('#hinhanh'));
 		var data={
 					"method": 1, "txtnoidung": noidung, "txtdapan1": da1, "txtdapan2": da2, "txtdapan3": da3,
 					"txtdapan4": da4, "list-dadung": dadung, "list-dethi": dethi, "chkxao": xao, "trangthai": "them", "tenanh": tenanh
@@ -380,15 +380,6 @@
         </td>
       </tr>
       <tr>
-        <td height="38">Ảnh minh họa:</td>
-        <td>
-         <img id="anhminhhoa" src="Images/no-image.jpg" height="100" width="120" style="margin-top: 10px;"/>      
-         <input type="file" id="hinhanh" name="hinhanh" size="48px" onchange="PTTimAnh(this)" style="display:none;" />
-        <input class="button" type="button" id="btnchonanh" onclick="document.getElementById('hinhanh').click()"
-         value="Chọn ảnh" />
-        </td>
-      </tr>
-      <tr>
         <td height="32">Đáp án 1:</td>
         <td><input type="text" name="txtdapan1" id="txtdapan1" size="72px"/></td>
       </tr>
@@ -506,15 +497,6 @@
             <br />(Chú ý: nội dung câu hỏi và đáp án không chứa dấu nháy đơn và kép (' và "))
             </p>
           </td>
-      </tr>
-      <tr>
-        <td height="121">Ảnh minh họa:</td>
-        <td>
-         <img id="anhminhhoa-tl" src="Images/no-image.jpg" height="100" width="120" style="margin-top: 10px;"/>      
-         <input type="file" id="hinhanh-tl" name="hinhanh-tl" size="48px" onchange="PTTimAnhTl(this)" style="display:none;" />
-        <input class="button" type="button" id="btnchonanh-tl" onclick="document.getElementById('hinhanh-tl').click()"
-         value="Chọn ảnh" />
-        </td>
       </tr>
       <tr>
         <td height="47">Đáp án:</td>

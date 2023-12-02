@@ -110,6 +110,6 @@
 
 <div>
 <?php
-   include("DAT/vd5.php");
+   //include("DAT/vd5.php");
 ?>
 </div>

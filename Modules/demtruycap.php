@@ -1,9 +1,9 @@
 <?php		
 	$sql_dem="select * from tblluottruycap";
-	$luottruycap= mysqli_query($con, $sql_dem);		
-	$dong_dem= mysqli_fetch_array($luottruycap);
-	$so= $dong_dem["soluot"]+1;
-	$sql_dem="update tblluottruycap set soluot='$so'";
+	//$luottruycap= mysqli_query($con, $sql_dem);		
+	//$dong_dem= mysqli_fetch_array($luottruycap);
+	//$so= $dong_dem["soluot"]+1;
+	//$sql_dem="update tblluottruycap set soluot='$so'";
 	mysqli_query($con,$sql_dem);
 	 $ip="10.0.0.1";	
 	  if(isset($_SERVER["REMOTE_ADDR"])) {  $ip = $_SERVER["REMOTE_ADDR"];}
@@ -27,11 +27,11 @@
 		 $sql="insert into tbluseronline (ip, tgtmp) values('$ip','$tg')";
 		 $query=mysqli_query($con,$sql);
 	  }	 
-	  $sql="delete from tbluseronline where tgtmp < $tgnew";
-	  $query=mysqli_query($con,$sql);
-	  $sql="select distinct ip FROM tbluseronline";
+	  //$sql="delete from tbluseronline where tgtmp < $tgnew";
+	  //$query=mysqli_query($con,$sql);
+	  //$sql="select distinct ip FROM tbluseronline";
 	  //$sql="select distinct ip FROM tbluseronline WHERE local='$dd'";
-	  $online=mysqli_query($con,$sql);
-	  $user = mysqli_num_rows($online);	  
-	  echo $user."/".$so."<br>";
+	 // $online=mysqli_query($con,$sql);
+	 // $user = mysqli_num_rows($online);	  
+	 // echo $user."/".$so."<br>";
 ?>

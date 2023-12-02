@@ -27,7 +27,7 @@ $(document).ready(function(e) {
       <td width="447"><input type="text" name="txtchude" id="txtchude" size="40px"></td>
     </tr>
     <tr>
-      <td height="50">Số lượng:</td>
+      <td height="50">Số lượng câu hỏi:</td>
       <td><input type="text" name="txtsoluong" id="txtsoluong" size="10px" value="0"></td>
     </tr>
     <tr>
@@ -63,7 +63,7 @@ $(document).ready(function(e) {
       <td><input type="text" name="txtthoigian" id="txtthoigian" size="10px" value="0"/></td>
     </tr>
     <tr>
-      <td height="50">KS Thời gian (p):</td>
+      <td height="50">Thời gian HS xem lại (p):</td>
       <td><input type="text" name="txtktthoigian" id="txtktthoigian" size="10px" value="0"/></td>
     </tr>
     <tr>

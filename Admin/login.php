@@ -118,7 +118,7 @@
 </form>  
 </div>
 <?php 
-	include("Modules/footer-ad.php");
+	//include("Modules/footer-ad.php");
 ?>
 </body>
 </html>

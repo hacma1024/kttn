@@ -31,7 +31,7 @@ $(document).ready(function(e) {
       <td width="358"><input type="text" name="txtchude" id="txtchude" size="40px" value="<?php echo $dong['chude']?>"></td>
     </tr>
     <tr>
-      <td height="38">Số lượng:</td>
+      <td height="38">Số lượng câu hỏi:</td>
       <td>
       <input type="text" name="txtsoluong" id="txtsoluong" value="<?php echo $dong['socauhoi']?>" size="10px">
       </td>

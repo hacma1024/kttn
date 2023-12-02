@@ -41,8 +41,7 @@
         </div>
        <!-- --------------------------------------------------- GHI CHU ------------------------------------->
        <div id="ghichu" style="font-family:'Times New Roman'; font-size:20px;color:#026422; font-style:italic; text-align:justify; line-height:30px; margin-top:30px; border: 2px solid #060; padding:10px; border-radius: 10px; background-color: #CEFFDD;" >
-       <u><b>GHI CHÚ:</b></u> Qúy thầy cô hoặc các bạn học sinh muốn đóng góp tài liệu cho website, vui lòng gửi về email: leducphuclong@gmail.com
-       <br /> Chân thành cảm ơn!
+       
        </div>                
        <div class="clear"> </div>            
     </div>		

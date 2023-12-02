@@ -10,13 +10,13 @@ function PTHienThiDanhNgon()
 		case 2:
 			$kq = "--- Sự học như đi thuyền trên dòng nước ngược, không tiến ắt phải lùi ---<br />";
 			break;
-		case 3:
+		//case 3:
 			$kq = "--- We can't change yesterday, but we can change today ---<br />";
 			break;
 		case 4:
 			$kq = "--- Không có gì là không thể với một người luôn biết cố gắng ---<br />";
 			break;
-		case 5:
+		//case 5:
 			$kq = "--- Never, never, never give up ---<br />";
 			break;
 		default:
@@ -35,7 +35,7 @@ function PTHienThiDanhNgon()
 		<b>Trường THCS Phú Tân</b>
 	</p>
 </div>
-<div id="gioithieu" style="position: relative;">
+<div id="gioithieu" style="background-color: #ffeecc; position: relative;">
 
 	<p id="tieude">
 		WEBSITE HỖ TRỢ ÔN TẬP, KIỂM TRA TRỰC TUYẾN
