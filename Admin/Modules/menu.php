@@ -36,7 +36,7 @@ $(document).ready(function(e) {
 
 </script>
 
-<div id="menu" style=" width: 8%; background-color: #F0F0F0;	float: left;	">
+<div id="menu" style=" width: 150px; background-color: #F0F0F0;	float: left;">
 
 	<a id="btnhome" href="#">
 
