@@ -1,4 +1,4 @@
-<div id="content">
+<div id="content" style="background-color: #ffeecc;">
 
 <?php 
 

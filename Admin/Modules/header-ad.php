@@ -30,7 +30,7 @@
 		<b>Trường THCS Phú Tân</b>
 	</p>
 </div>
-<div id="gioithieu" style="position: absolute; margin-left: 70px; height: 70px; width: 1200px;">
+<div id="gioithieu" style="background-color: #ffeecc; position: absolute; margin-left: 70px; height: 100px; width: 1200px;">
 	<p id="tieude"> 
     	WEBSITE HỖ TRỢ ÔN TẬP, KIỂM TRA TRỰC TUYẾN 
     </p>

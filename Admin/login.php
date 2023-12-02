@@ -72,9 +72,9 @@
 <?php 
 	include("Modules/header-ad.php");
 ?>
-<div id="login" style="margin-left: 70px; margin-left: 70px;">
+<div id="login" style="background-color: #ffeecc; width: 1200px; margin-left: 70px; margin-left: 70px;">
 <form action="login.php" method="post" enctype="multipart/form-data">
-  <table width="736" border="0" cellspacing="0" cellpadding="0" style="margin-left: 120px;">
+  <table width="800" border="0" cellspacing="0" cellpadding="0" style="margin-left: 120px;">
     <tr>
       <td height="35" colspan="4">
       <div style="width: 695px; margin-top: 80px; font-family:Verdana; color: #00F; font-size: 20px; pad" align="center"> <strong><p style="padding-left: 280px; margin-bottom: 10px;">ĐĂNG NHẬP HỆ THỐNG</p></strong>
