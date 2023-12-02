@@ -7,3 +7,5 @@ Lưu ý:
 2. Tạo câu hỏi => chọn đề thi tương ứng
 - Có thể chọn xáo câu trả lời hoặc không
 - Số lượng câu hỏi của bộ đề có thể nhiều hơn số lượng câu hỏi đề thi => hệ thống sẽ chọn random câu hỏi
+3. Thay đổi màu nền:
+- Replace cụm từ #ffeecc bằng mã màu khác tùy chọn (https://www.w3schools.com/colors/colors_picker.asp)
