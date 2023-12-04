@@ -3,7 +3,7 @@
 	$tenmaychu= "localhost";
 	$taikhoan= "root";	
     $matkhau= "";
-	$csdl= "kttn";
+	$csdl= "kttracnghiem";
 	$con= mysqli_connect($tenmaychu, $taikhoan, $matkhau, $csdl);	
 	mysqli_set_charset($con, "utf8");			
 ?>
